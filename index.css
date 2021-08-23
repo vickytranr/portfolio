@@ -22,8 +22,18 @@ p{
     width: 250px;
     height: 250px;
 }
-  
 .thumb1 a {
+    display: block;
+    width: 250px;
+    height: 250px;
+}
+.thumb2 { 
+    margin-left: 100px;
+    background: url(MCI\ Lower\ Turtle\ FINAL.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 250px;
+}
+.thumb2 a {
     display: block;
     width: 250px;
     height: 250px;
