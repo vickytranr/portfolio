@@ -17,6 +17,7 @@ p{
     font-family: Arial, Helvetica, sans-serif;
 }
 .thumb1 { 
+    background-size: 250px;
     background: url(final_shot.jpg) 50% 50% no-repeat; /* 50% 50% centers image in div */
     width: 250px;
     height: 250px;
