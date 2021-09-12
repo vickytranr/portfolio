@@ -38,3 +38,14 @@ p{
     width: 250px;
     height: 250px;
 }
+.thumb3 { 
+    margin-left: 100px;
+    background: url(fold.jpg) 50% 30% no-repeat; /* 50% 50% centers image in div */
+    width: 250px;
+    height: 250px;
+}
+.thumb3 a {
+    display: block;
+    width: 250px;
+    height: 250px;
+}
