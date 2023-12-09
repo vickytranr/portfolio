@@ -22,14 +22,13 @@ font-style: normal;
 
 .grid-container {
   display: grid;
-  grid-template-columns: 350px 350px 350px;
-  gap: 40px;
-  padding: 30px;
-  float: right;
+  grid-template-columns: repeat(auto-fit, 400px);
+grid-template-rows: repeat(auto-fit, 400px);
+  gap: 10px;
 }
 
 .grid-container > div {
   text-align: right;
-  padding: 20px 0;
+  padding: 10px;
   font-size: 20px;
 }
