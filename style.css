@@ -200,16 +200,18 @@ padding-top: 30px;
 
 iframe{
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+
   padding:20px;
   border:none;
 }
 
-.container{
-  position: relative;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 56.25%;
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#ubi-prog-1 #ubi-prog-2 #ubi-prog-3 #ubi-prog-4{
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
