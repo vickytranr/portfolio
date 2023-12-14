@@ -3,47 +3,53 @@ h1{
   font-weight: lighter;
   padding-left: 50px;
 }
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding-left: 50px;
+}
 img{
   padding-left: 50px;
+  width: 250px;
 }
 
 p{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-font-weight: 300;
+font-weight: 400;
 font-style: normal;
 padding-left: 50px;
-}
-
-img{
-width: 350px;
+color: #35302d;
 }
 
 a{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-weight: 400;
 font-style: normal;
-color: #31352d;
+color: #35302d;
 text-decoration:none
 }
 a:hover {
-  color: rgb(67, 92, 40);
+  color: rgb(233, 113, 0);
+  font-weight: 400;
 }
 
 a:active {
-  color: rgb(67, 92, 40);
+  color: rgb(233, 113, 0);
+  font-weight: 400;
 }
 
-.grid-container {
+.grid-container-games {
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
 grid-template-rows: repeat(auto-fit, 400px);
   gap: 10px;
 }
 
-.grid-container > div {
+.grid-container-games > div {
   text-align: right;
   padding: 10px;
   font-size: 20px;
+  font-weight: 400;
 }
 
 
@@ -52,26 +58,29 @@ grid-template-rows: repeat(auto-fit, 400px);
   overflow: hidden;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding-bottom: 20px;
+  padding-left: 50px;
+  font-weight: 400;
 }
 
 .topnav a {
   float: left;
   display: block;
-  color: #31352d;
+  color: #35302d;
   text-align: center;
-  padding: 14px 16px;
+  padding-right: 30px;
+  padding-top: 30px;
   text-decoration: none;
   font-size: 17px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a:hover {
-  color: rgb(67, 92, 40);
+  color: rgb(233, 113, 0);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a.active {
-  color: rgb(67, 92, 40);
+  color: rgb(233, 113, 0);
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
