@@ -10,7 +10,7 @@ h2{
 }
 img{
   padding-left: 50px;
-  width: 250px;
+  width: 300px;
 }
 
 p{
@@ -43,7 +43,7 @@ a:active {
 .grid-container-games {
   display: grid;
   grid-template-columns: repeat(auto-fit, 400px);
-grid-template-rows: repeat(auto-fit, 400px);
+grid-template-rows: repeat(auto-fit, 300px);
   gap: 10px;
 }
 
