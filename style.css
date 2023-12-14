@@ -23,6 +23,11 @@ img{
   width: 300px;
 }
 
+hr {
+  width:50%;
+  margin:0 auto;
+}
+
 p{
   display: block;
   margin-left: auto;
@@ -112,7 +117,7 @@ padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding:50px;
+  padding:20px;
 }
 
 .ubi_final{
@@ -120,7 +125,7 @@ padding-top: 30px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  padding:50px;
+  padding:20px;
 }
 .topnav {
   overflow: hidden;
@@ -176,4 +181,19 @@ padding-top: 30px;
     display: block;
     text-align: left;
   }
+}
+
+.bottom-nav{
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding:5px;
+}
+
+.bottom-nav a{
+  padding:10spx;
 }
