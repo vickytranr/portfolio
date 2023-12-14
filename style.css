@@ -209,12 +209,18 @@ iframe{
   margin-right: auto;
 }
 
+#ubi-prog-4 #ubi-prog-1{
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
 .wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-#ubi-prog-1 #ubi-prog-2 #ubi-prog-3 #ubi-prog-4{
+#ubi-prog-1 #ubi-prog-2 #ubi-prog-3 {
   align-items: center;
   justify-content: center;
   width: 50%;
