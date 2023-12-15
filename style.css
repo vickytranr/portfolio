@@ -101,7 +101,20 @@ grid-template-rows: repeat(auto-fit, 300px);
   font-weight: 400;
 }
 
+.tag-wrap{
+  text-align: center;
+  padding:30px;
+}
 
+.tags{
+  display: inline;
+  width:40%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
 
 .logo {
   width: auto ;
@@ -122,7 +135,7 @@ padding-top: 30px;
   padding:20px;
 }
 
-.ubi_final{
+.final{
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -226,9 +239,4 @@ iframe{
 #ubi-prog-1 #ubi-prog-2 #ubi-prog-3 {
   align-items: center;
   justify-content: center;
-
-}
-
-.ui .ux .ui-art .ps .ae{
-  display:contents;
 }
