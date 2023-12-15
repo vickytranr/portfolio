@@ -118,7 +118,7 @@ padding-top: 30px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   padding:20px;
 }
 
@@ -126,7 +126,7 @@ padding-top: 30px;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 40%;
   padding:20px;
 }
 .topnav {
@@ -194,6 +194,7 @@ padding-top: 30px;
   color: rgb(0, 0, 0);
   text-align: center;
   padding:5px;
+  text-transform: uppercase;
 }
 
 .bottom-nav a{
@@ -214,15 +215,20 @@ iframe{
 #ubi-prog-4 #ubi-prog-1{
   align-items: center;
   justify-content: center;
-  width: 40%;
+
 }
 .wrapper{
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 #ubi-prog-1 #ubi-prog-2 #ubi-prog-3 {
   align-items: center;
   justify-content: center;
-  width: 40%;
+
+}
+
+.ui .ux .ui-art .ps .ae{
+  display:contents;
 }
