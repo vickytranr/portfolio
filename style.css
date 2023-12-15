@@ -12,6 +12,7 @@ h3{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   padding-left: 50px;
+  padding-top: 10px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +26,8 @@ img{
 
 hr {
   width:50%;
-  margin:0 auto;
+  margin: auto;
+  color: #46403e;
 }
 
 p{
@@ -212,9 +214,8 @@ iframe{
 #ubi-prog-4 #ubi-prog-1{
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 40%;
 }
-@media screen and (min-width: 600px) {
 .wrapper{
   display: flex;
   align-items: center;
@@ -223,6 +224,5 @@ iframe{
 #ubi-prog-1 #ubi-prog-2 #ubi-prog-3 {
   align-items: center;
   justify-content: center;
-  width: 50%;
-}
+  width: 40%;
 }
