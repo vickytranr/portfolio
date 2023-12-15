@@ -108,12 +108,13 @@ grid-template-rows: repeat(auto-fit, 300px);
 
 .tags{
   display: inline;
-  width:40%;
+  width: 40%;
   justify-content: center;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 14px;
 }
 
 .logo {
