@@ -104,6 +104,7 @@ grid-template-rows: repeat(auto-fit, 300px);
 .tag-wrap{
   text-align: center;
   padding:30px;
+  padding-top: 10px;
 }
 
 .tags{
