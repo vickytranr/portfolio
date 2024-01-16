@@ -146,7 +146,7 @@ a:active {
   grid-template-columns: repeat(2, 450px);
 grid-template-rows: repeat(auto-fit, 400px);
   gap: 30px;
-  float:right;
+
   margin-right: 100px;
 }
 
