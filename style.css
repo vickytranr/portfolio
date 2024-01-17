@@ -363,3 +363,30 @@ iframe{
   cursor: pointer;
 }
 
+.index-titles {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.index-titles:hover {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(233, 113, 0);
+}
+
+.index-titles:active {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(233, 113, 0);
+}
+
+#pnp {
+  padding-top:50px;
+  width:330px;
+
+}
+
