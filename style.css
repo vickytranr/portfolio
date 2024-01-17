@@ -317,11 +317,17 @@ iframe{
   justify-content: center;
 
 }
-#ubi-prog-1 #ubi-prog-2 #ubi-prog-3 {
+#ubi-prog-1 #ubi-prog-2 #ubi-prog-3{
   align-items: center;
   justify-content: center;
 }
-#dss-prog{
+#dss-prog {
+  margin:auto;
+  align-items: center;
+  justify-content: center;
+}
+
+#bb-prog{
   margin:auto;
   align-items: center;
   justify-content: center;
@@ -342,4 +348,25 @@ iframe{
 
 #dog:hover{
   cursor: pointer;
+}
+
+.index-titles {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: black;
+}
+
+.index-titles:hover {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(233, 113, 0);
+}
+
+.index-titles:active {
+  text-transform: uppercase;
+  font-family: Helvetica, sans-serif;
+  font-weight: 700;
+  color: rgb(233, 113, 0);
 }
