@@ -139,21 +139,20 @@ min-width: 500px;
 
 a{
   font-family: Helvetica, sans-serif;
-font-weight: 400;
 font-style: normal;
 color: #35302d;
 text-decoration:none;
-color: rgb(36, 49, 154);
+font-weight: 700;
 
 }
 a:hover {
   color: rgb(233, 113, 0);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 a:active {
   color: rgb(233, 113, 0);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .grid-container {
@@ -376,21 +375,21 @@ iframe{
 }
 
 .index-titles {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: black;
 }
 
 .index-titles:hover {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: rgb(233, 113, 0);
 }
 
 .index-titles:active {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: rgb(233, 113, 0);
