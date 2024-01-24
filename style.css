@@ -58,7 +58,7 @@ font-style: normal;
 font-size: 60px;
 }
 
-img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire){
+img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self){
 width:50%;
 display: block;
 margin: auto;
@@ -398,10 +398,21 @@ iframe{
 
 }
 
+.about-container{
+margin:auto;
+}
+
 .about{
-  margin:0;
-  position: absolute;
-  top:  50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  display: block;
+  width:524px;
+
+}
+
+.self{
+  display: block;
+width:500px;
+position: absolute;
+top:  60%;
+left: 50%;
+transform: translate(-50%,-50%);
 }
