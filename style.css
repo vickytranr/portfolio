@@ -244,6 +244,7 @@ padding-bottom: 50px;
   overflow: hidden;
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
+  font-weight:bold;
   padding-bottom: 20px;
   padding-left: 50px;
   font-weight: 400;
@@ -253,6 +254,7 @@ padding-bottom: 50px;
   float: left;
   display: block;
   color: #35302d;
+  font-weight:bold;
   text-align: center;
   padding-right: 30px;
   padding-top: 30px;
@@ -265,12 +267,14 @@ padding-bottom: 50px;
 .topnav a:hover {
   color: rgb(233, 113, 0);
   font-family: Helvetica, sans-serif;
+  font-weight:bold;
   text-transform: uppercase;
 }
 
 .topnav a.active {
   color: rgb(233, 113, 0);
   font-family: Helvetica, sans-serif;
+  font-weight:bold;
   text-transform: uppercase;
 }
 
