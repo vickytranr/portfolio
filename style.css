@@ -58,7 +58,7 @@ font-style: normal;
 font-size: 60px;
 }
 
-img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire){
+img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self){
 width:50%;
 display: block;
 margin: auto;
@@ -139,21 +139,20 @@ min-width: 500px;
 
 a{
   font-family: Helvetica, sans-serif;
-font-weight: 400;
 font-style: normal;
 color: #35302d;
 text-decoration:none;
-color: rgb(36, 49, 154);
+font-weight: 700;
 
 }
 a:hover {
   color: rgb(233, 113, 0);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 a:active {
   color: rgb(233, 113, 0);
-  font-weight: 400;
+  font-weight: 700;
 }
 
 .grid-container {
@@ -244,6 +243,7 @@ padding-bottom: 50px;
   overflow: hidden;
   font-family: Helvetica, sans-serif;
   text-transform: uppercase;
+  font-weight:bold;
   padding-bottom: 20px;
   padding-left: 50px;
   font-weight: 400;
@@ -253,6 +253,7 @@ padding-bottom: 50px;
   float: left;
   display: block;
   color: #35302d;
+  font-weight:bold;
   text-align: center;
   padding-right: 30px;
   padding-top: 30px;
@@ -265,12 +266,14 @@ padding-bottom: 50px;
 .topnav a:hover {
   color: rgb(233, 113, 0);
   font-family: Helvetica, sans-serif;
+  font-weight:bold;
   text-transform: uppercase;
 }
 
 .topnav a.active {
   color: rgb(233, 113, 0);
   font-family: Helvetica, sans-serif;
+  font-weight:bold;
   text-transform: uppercase;
 }
 
@@ -372,21 +375,21 @@ iframe{
 }
 
 .index-titles {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: black;
 }
 
 .index-titles:hover {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: rgb(233, 113, 0);
 }
 
 .index-titles:active {
-  text-transform: uppercase;
+
   font-family: Helvetica, sans-serif;
   font-weight: 700;
   color: rgb(233, 113, 0);
@@ -398,10 +401,22 @@ iframe{
 
 }
 
+.about-container{
+margin:auto;
+}
+
 .about{
-  margin:0;
-  position: absolute;
-  top:  50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
+  display: block;
+  width:524px;
+
+}
+
+.self{
+  display: block;
+width:330px;
+position: absolute;
+top:  65%;
+left: 50%;
+transform: translate(-50%,-50%);
+padding-bottom: 20px;
 }
