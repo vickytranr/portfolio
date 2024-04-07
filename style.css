@@ -62,7 +62,7 @@ font-size: 60px;
 }
 
 img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self, .wire-a){
-width:50%;
+  width:450px;
 display: block;
 margin: auto;
   text-align: center;
@@ -195,7 +195,7 @@ grid-template-rows: repeat(auto-fit, 400px);
 }
 
 .logo {
-  width: auto;
+  width: 25%;
   max-width: 100% ;
   height: auto;
 display: block;
@@ -461,4 +461,28 @@ padding-bottom: 20px;
   margin:0 auto;
   width:47%;
   height:70vh;
+}
+
+#storyboard{
+  width: 47%;
+}
+
+.sLogo{
+  width:15%;
+  display: block;
+margin: auto;
+  text-align: center;
+  padding:20px;
+}
+
+.assets{
+  padding-top:20px;
+}
+
+.hubAnim{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom:40px;
 }
