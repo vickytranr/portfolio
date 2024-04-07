@@ -231,6 +231,7 @@ padding-bottom: 50px;
   padding-left: 0;
 }
 
+
 .nav-img {
   align-items: center;
   justify-content: center;
@@ -448,4 +449,16 @@ padding-bottom: 20px;
 #dust{
   width:300px;
   padding-bottom:40px;
+}
+
+.sketchfab-embed-wrapper{
+  margin:0 auto;
+  width:50%;
+  height:40vh;
+}
+
+#blendGDD{
+  margin:0 auto;
+  width:47%;
+  height:70vh;
 }
