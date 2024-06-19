@@ -61,7 +61,7 @@ font-style: normal;
 font-size: 60px;
 }
 
-img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self, .wire-a){
+img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self, .wire-a, .final){
   width:450px;
 display: block;
 margin: auto;
@@ -207,7 +207,7 @@ padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 47%;
   padding-top:20px;
   padding-left:20px;
   padding-right:20px;
@@ -218,7 +218,7 @@ padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 47%;
   padding:20px;
 }
 
