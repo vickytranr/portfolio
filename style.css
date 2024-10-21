@@ -1,10 +1,38 @@
-html, body {
+html, body{
   padding: 0;
   margin: 0;
   margin-bottom: 30px;
   background-color: white;
-  height: 100%;
+top: 0;
+bottom: 0;
   scroll-behavior: smooth;
+  position: relative;
+
+}
+
+#vickyLogo {
+  width:60vw;
+
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+}
+
+.coverIndex {
+  width:100vw;
+  position: fixed;
+  bottom: 0px;
+}
+
+.grid-index-container {
+  display: grid; 
+  grid-template-columns: 100%; 
+
+}
+
+.grid-index-container > div {
+  width: 100vw;
 }
 
 h1{
@@ -61,14 +89,14 @@ font-style: normal;
 font-size: 60px;
 }
 
-img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self, .wire-a){
-  width:450px;
+img:not(.ink, .logo, .cover-img, .bb-beauty, .nav-img, .flags, .wire, .self, .wire-a, .coverIndex){
+  max-width:800px;
 display: block;
 margin: auto;
   text-align: center;
 }
 .cover-img {
-  width:100%;
+  max-width:100%;
 text-align: right;
 }
 
@@ -78,7 +106,7 @@ text-align: right;
 }
 
 .ink {
-  width:16.5%;
+  max-width:16.5%;
   padding: 0;
   margin: 0;
 }
@@ -97,19 +125,19 @@ text-align: right;
 }
 
 .flags {
-  width:9%;
+  max-width:9%;
   padding: 0;
   margin: 0;
 }
 
 .bb-beauty {
-  width:100%;
+  max-width:100%;
   padding:0;
   margin:0;
 }
 
 hr {
-  width:50%;
+  max-width:50%;
   margin: auto;
 }
 
@@ -195,8 +223,7 @@ grid-template-rows: repeat(auto-fit, 400px);
 }
 
 .logo {
-  width: 25%;
-  max-width: 100% ;
+  max-width: 400px ;
   height: auto;
 display: block;
 margin: auto;
@@ -207,18 +234,14 @@ padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-  padding-top:20px;
-  padding-left:20px;
-  padding-right:20px;
-  padding-bottom: 0px;
+
 }
 
 #ubi-vid{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  max-width: 800px;
   padding:20px;
 }
 
@@ -226,7 +249,7 @@ padding-bottom: 50px;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  width: 47%;
+  max-width: 47%;
   padding:10px;
   padding-left: 0;
 }
@@ -235,7 +258,7 @@ padding-bottom: 50px;
 .nav-img {
   align-items: center;
   justify-content: center;
-  width: 15%;
+  max-width: 15%;
   padding:0px;
 }
 
@@ -290,6 +313,7 @@ padding-bottom: 50px;
   .topnav a.icon {
     float: right;
     display: block;
+
   }
 }
 
@@ -299,6 +323,7 @@ padding-bottom: 50px;
     position: absolute;
     right: 0;
     top: 0;
+
   }
   .topnav.responsive a {
     float: none;
@@ -311,7 +336,7 @@ padding-bottom: 50px;
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  max-width: 100%;
   color: rgb(0, 0, 0);
   text-align: center;
   padding:10px;
@@ -329,7 +354,7 @@ iframe:not(.letters){
   border:none;
 }
 #research-prog{
-  width:40%;
+  max-width:40%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -370,7 +395,7 @@ iframe:not(.letters){
 
 #dog {
   padding-top:50px;
-  width:230px;
+  max-width:230px;
   padding-bottom:80px;
 }
 
@@ -401,7 +426,7 @@ iframe:not(.letters){
 
 #pnp {
   padding-top:50px;
-  width:330px;
+  max-width:330px;
 
 }
 
@@ -411,13 +436,13 @@ margin:auto;
 
 .about{
   display: block;
-  width:524px;
+  max-width:524px;
 
 }
 
 .self{
   display: block;
-width:330px;
+  max-width:330px;
 position: absolute;
 top:  65%;
 left: 50%;
@@ -435,7 +460,7 @@ padding-bottom: 20px;
 }
 
 .letters {
-  width: 420px;
+  max-width: 420px;
   height:240px;
 }
 
@@ -447,28 +472,28 @@ padding-bottom: 20px;
 }
 
 #dust{
-  width:300px;
+  max-width:300px;
   padding-bottom:40px;
 }
 
 .sketchfab-embed-wrapper{
   margin:0 auto;
-  width:50%;
+  max-width:50%;
   height:40vh;
 }
 
 #blendGDD{
   margin:0 auto;
-  width:47%;
+  max-width:47%;
   height:70vh;
 }
 
 #storyboard{
-  width: 47%;
+  max-width: 47%;
 }
 
 .sLogo{
-  width:15%;
+  max-width:15%;
   display: block;
 margin: auto;
   text-align: center;
@@ -483,7 +508,11 @@ margin: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 47%;
+  max-width: 47%;
   padding-top: 10px;
   padding-bottom:40px;
+}
+
+video{
+  max-width: 800px;
 }
