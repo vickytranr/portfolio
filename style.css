@@ -106,7 +106,7 @@ text-align: right;
 }
 
 .ink {
-  max-width:16.5%;
+  max-width:150px;
   padding: 0;
   margin: 0;
 }
@@ -234,6 +234,7 @@ padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  max-width: 800px
 }
 
 #ubi-vid{
@@ -488,7 +489,7 @@ padding-bottom: 20px;
 }
 
 #storyboard{
-  max-width: 47%;
+  max-width: 800px;
 }
 
 .sLogo{
@@ -510,8 +511,4 @@ margin: auto;
   max-width: 47%;
   padding-top: 10px;
   padding-bottom:40px;
-}
-
-video{
-  max-width: 800px;
 }
