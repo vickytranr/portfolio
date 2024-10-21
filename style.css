@@ -1,5 +1,5 @@
 html, body{
-  padding: 0;
+  padding: 10px;
   margin: 0;
   margin-bottom: 30px;
   background-color: white;
@@ -234,7 +234,8 @@ padding-bottom: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px
+  max-width: 800px;
+  padding:20px;
 }
 
 #ubi-vid{
@@ -249,9 +250,9 @@ padding-bottom: 50px;
   display:block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 47%;
-  padding:10px;
-  padding-left: 0;
+max-width: 800px;
+height: auto;
+  padding-top: 10px;
 }
 
 
@@ -362,7 +363,7 @@ iframe:not(.letters){
 #ubi-prog-4 #ubi-prog-1{
   align-items: center;
   justify-content: center;
-
+  max-width: 800px;
 }
 .wrapper{
   display: flex;
@@ -373,6 +374,7 @@ iframe:not(.letters){
 #ubi-prog-1 #ubi-prog-2 #ubi-prog-3{
   align-items: center;
   justify-content: center;
+  max-width: 800px;
 }
 #dss-prog {
   margin:auto;
