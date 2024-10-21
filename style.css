@@ -271,7 +271,6 @@ height: auto;
   text-transform: uppercase;
   font-weight:bold;
   padding-bottom: 20px;
-  padding-left: 50px;
   font-weight: 400;
 }
 
@@ -443,11 +442,9 @@ margin:auto;
 .self{
   display: block;
   max-width:330px;
-position: absolute;
-top:  65%;
-left: 50%;
-transform: translate(-50%,-50%);
-padding-bottom: 20px;
+  margin:auto;
+  align-items: center;
+  justify-content: center;
 }
 
 .frame-container {
