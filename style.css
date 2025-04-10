@@ -10,6 +10,32 @@ bottom: 0;
 
 }
 
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #ff2693;
+  color: white;
+}
+
+.socials {
+  text-align: center;
+}
 
 #vickyLogo {
 
